@@ -1,0 +1,43 @@
+#intro{
+    /* background: url(../assets/imagens/Background_Intro.png) no-repeat center/ cover; */
+    height: 100vh;
+
+    display: flex;
+
+    .info{
+        margin: auto;
+        
+        header{
+            text-align: center;
+            
+            .avatar{
+                margin: auto;
+                border: 2px solid var(--red);
+                border-radius: 50%;
+                height: 96px;
+                width: 96px;
+                
+                display: flex;
+                position: relative;
+                img{
+                    height: 87px;
+                    width: 87px;
+                    border-radius: 50%;
+                    margin: auto;
+                }
+
+                span{
+                    background: url(../assets/icones/Code.svg) no-repeat center/contain;
+                    width: 35px;
+                    height: 25px;
+                    position: absolute;
+                    right: -8px;
+                    bottom: 0px;
+                    
+                }
+            }
+            
+        }
+    }
+}
+
