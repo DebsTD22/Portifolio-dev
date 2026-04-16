@@ -1,5 +1,5 @@
 #intro{
-    /* background: url(../assets/imagens/Background_Intro.png) no-repeat center/ cover; */
+    background: url(../assets/imagens/Background_Intro.png) no-repeat center/ cover; 
     height: 100vh;
 
     display: flex;
@@ -11,17 +11,17 @@
             text-align: center;
             
             .avatar{
-                margin: auto;
+                margin: 0 auto 80px;
                 border: 2px solid var(--red);
                 border-radius: 50%;
-                height: 96px;
-                width: 96px;
-                
+                height: 112px;
+                width: 112px;
                 display: flex;
                 position: relative;
+
                 img{
-                    height: 87px;
-                    width: 87px;
+                    height: 103px;
+                    width: 103px;
                     border-radius: 50%;
                     margin: auto;
                 }
@@ -33,10 +33,12 @@
                     position: absolute;
                     right: -8px;
                     bottom: 0px;
-                    
                 }
             }
             
+            .text{
+                width: 680px;
+            }
         }
     }
 }
