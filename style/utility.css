@@ -1,0 +1,40 @@
+.red{
+    color: var(--red);
+}
+
+.base-gray-200{
+    color: var(--base-gray-200);
+}
+
+.base-gray-100{
+    color: var(--base-gray-100);
+}
+
+.base-gray-300{
+    color: var(--base-gray-300);
+}
+
+.base-gray-400{
+    background-color: var(--base-gray-400);
+}
+
+.base-gray-500{
+    background-color: var(--base-gray-500);
+}
+
+.subtitulo{
+    font: var(--subtitulo-inconsolata);
+    margin-bottom: 8px;
+}
+
+.title-lg{
+    font: var(--title-lg-asap);
+}
+
+.text-sm{
+    font: var(--text-sm-mavenpro);
+}
+
+.text-md-mavenpro{
+    font: var(--text-md-mavenpro);
+}
