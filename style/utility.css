@@ -31,6 +31,14 @@
     font: var(--title-lg-asap);
 }
 
+.title-md{
+    font: var(--title-md-asap);
+}
+
+.title-sm{
+    font: var(--title-sm-asap);
+}
+
 .text-sm{
     font: var(--text-sm-mavenpro);
 }
