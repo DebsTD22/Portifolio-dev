@@ -76,6 +76,14 @@ header{
     }
 }
 
-#scroll-indicador{
+#scroll{
     margin: auto;
+    animation: jumping 1s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes jumping{
+    from{transform: translateY(-15px);}
+    50%{transform: translateY(0);}
+    to{transform: translateY(-15px);}
 }
