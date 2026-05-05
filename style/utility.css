@@ -2,6 +2,10 @@
     color: var(--red);
 }
 
+.purple{
+    color: var(--purple);
+}
+
 .base-gray-200{
     color: var(--base-gray-200);
 }
@@ -43,12 +47,6 @@
     font: var(--text-sm-mavenpro);
 }
 
-.text-md-mavenpro{
+.text-md{
     font: var(--text-md-mavenpro);
 }
-
-.header{
-    text-align: center;
-    margin-bottom: 56px;
-}
-
