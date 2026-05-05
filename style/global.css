@@ -39,6 +39,9 @@
 
 .grid{
     display: grid;
+}
+
+.grid-coluns{
     grid-template-columns: 1fr 1fr 1fr ;
     gap: 24px 24px;
     width: 1040px;
