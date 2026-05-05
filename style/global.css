@@ -35,5 +35,12 @@
     height: 1px;
     width: 100%;
     background: black;
-    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 24px 24px;
+    width: 1040px;
+    margin: auto;
 }

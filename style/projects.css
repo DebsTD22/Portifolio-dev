@@ -5,14 +5,6 @@
     background-repeat: no-repeat;
 }
 
-#grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    gap: 24px 24px;
-    width: 1040px;
-    margin: auto;
-}
-
 .project-card{
     background-color: var(--base-gray-400);
     border-radius: 16px;

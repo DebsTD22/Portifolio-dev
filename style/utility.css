@@ -47,7 +47,7 @@
     font: var(--text-md-mavenpro);
 }
 
-.titulo{
+.header{
     text-align: center;
     margin-bottom: 56px;
 }
