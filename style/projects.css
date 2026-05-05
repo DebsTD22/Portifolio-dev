@@ -1,6 +1,37 @@
 #projects{
-    background: #16181D;
-
+    background: var(--base-gray-500);
     height: 100vh;
+    padding: 72px 120px 144px;
 }
 
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 24px 24px;
+    width: 1040px;
+    margin: auto;
+}
+
+.project-card{
+    background-color: var(--base-gray-400);
+    border-radius: 16px;
+    width: 330px;
+    height: 280px;
+    padding: 12px;
+    text-decoration: none;
+
+    img{
+        width: 306px;
+        height: 156px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+
+    h3{
+        margin-bottom: 12px;
+    }
+}
+
+.project-card:hover{
+    border: 1px solid var(--base-gray-300);
+}

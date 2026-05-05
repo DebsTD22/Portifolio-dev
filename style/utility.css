@@ -46,3 +46,9 @@
 .text-md-mavenpro{
     font: var(--text-md-mavenpro);
 }
+
+.titulo{
+    text-align: center;
+    margin-bottom: 56px;
+}
+
